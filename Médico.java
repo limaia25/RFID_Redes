@@ -8,7 +8,7 @@ public class Médico {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Bemvindo ao TWO");
+		System.out.println("Welcome to TWO");
 		basedados bd =new basedados();
 		
 		
