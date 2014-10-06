@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Médico {
+public class Clinic {
 
 	/**
 	 * @param args
@@ -15,14 +15,14 @@ public class Médico {
 		//Doente passa no leitor de rfid
 		
 		Scanner s = new Scanner(System.in);
-		System.out.println("Introduza valor obtido pelo leitor de RFID:");
+		System.out.println("Put in the value of RFID reader:");
 		Zonetest bla = new Zonetest();
 		int epcd=s.nextInt();
 		
 		// IR buscar o Epc ao servidor
 		System.out.println(bla.buscaid(epcd));
 		
-		System.out.println("Medicamento");
+		System.out.println("Medicine");
 		bd.consultamedicamentos();
 		for(int i=1; i< bd.consultamedicamentos().size();i++)
 		{
