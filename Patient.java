@@ -1,7 +1,7 @@
 
-public class Paciente {
+public class Patient {
 	public static void main(String[] args) {
-		System.out.println("Bemvindo ao TWO");
+		System.out.println("Welcome to TWO");
 		basedados bd =new basedados();
 		
 		//Paciente quer consultar informação a ele associada
