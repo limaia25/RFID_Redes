@@ -11,9 +11,9 @@ import java.text.SimpleDateFormat;
 import com.mysql.*;
 
 
-public class basedados {
+public class database {
 	Connection conn;
-	public basedados ()
+	public database ()
 	{
 //Neste construtor é efectuada a ligação à base de dados.
 		
